@@ -12,7 +12,15 @@
         <module>game-server</module>
         <module>login-server</module>
         <module>world-server</module>
+        <module>common</module>
     </modules>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>18.0</version>
+        </dependency>
+    </dependencies>
 
 </project>
